@@ -1,0 +1,18 @@
+1. feladat
+egér
+
+2. feladat
+tyúk
+
+3. feladat
+szöveg: 5 sor
+üres sor:6 sor
+
+4.feladat
+print("    /\n   /\n  /\n /\n/\n")
+
+5.feladat
+print("\\\n \\\n  \\\n   \\\n    \\\n")
+
+6.feladat
+print("\\    /\n \\  /\n  \\/\n")
