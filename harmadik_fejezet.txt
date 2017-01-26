@@ -1,0 +1,12 @@
+1. feladat
+vezetek=input("Vezetékneved: ")
+kereszt=input("Keresztneved: ")
+print("A te neved" +" "+vezetek +" "+kereszt+".")
+
+2.feladat
+vezetek=input("Vezetékneved: ")
+kereszt=input("Keresztneved: ")
+csillagjegy=input("Csillagjegyed: " )
+ev=input("Mikor születtél?: ")
+print("A te neved" +" "+vezetek +" "+kereszt+".")
+print(ev +" " +csillagjegy)
