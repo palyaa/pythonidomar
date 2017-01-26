@@ -1,0 +1,5 @@
+1. feladat
+Hibát fog kiadni.
+
+2. feladat
+Kiírja mind a két sort . A második az aposztróf jelekkel együtt.
