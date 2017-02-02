@@ -1,0 +1,24 @@
+1. feladat
+jelszó = '(*Kk34=('
+tipp = input('Mi a jelszó? ')
+if tipp == jelszó:
+    print('Bemehet.')
+else:
+    print('Hozzáférés megtagadva.')
+
+2.feladat
+sz1=12
+sz2=3
+tipp=int(input("Mennyi " + str(sz1) + "+" + str(sz2) + " ? "))
+if tipp ==sz1 + sz2:
+	print("Nem rossz,nem rossz")
+else:
+	print("Ejnye")
+
+3.feladat
+szam = input("Adj meg egy egész számot: ")
+szam = int(szam)
+if szam >= 0:
+	print("A", szam, "természetes szám.")
+else:
+	print("A", szam, "egy negatív egész.")

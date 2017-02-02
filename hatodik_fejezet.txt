@@ -1,0 +1,70 @@
+1. feladaat
+a=int(input("Írj be egy számot: ")
+b=int(input("Írj be egy számot: ")
+if a>b:
+	print(b)
+else:
+	print(a)
+
+2.feladat
+
+egyik = int(input('Mi az egyik szám? '))
+másik = int(input('Mi a másik szám? '))
+if egyik > másik:
+    kiírandó = 'Az ' + str(egyik) + ' a nagyobb.'
+elif egyik == másik:
+    kiírandó = 'Egyenlõek.'
+else:
+    kiírandó = 'A ' + str(másik) + ' a nagyobb.'
+print(kiírandó)
+
+3.feladat
+
+helyezes = int(input("Hányadik lettél a versenyen? "))
+if helyezes == 1:
+	print("Akkor te aranyérmes vagy")
+if helyezés == 2:
+	print("Akkor te ezüstérmes vagy")
+if helyezés == 3:
+	print("Akkor te bronzérmes vagy")
+else:
+	print("Akkor te nem kaptál érmet")
+
+4.feladat
+a = int(input("Add meg az "a" oldal hosszát! "))
+b = int(input("Add meg az "b" oldal hosszát! "))
+c = int(input("Add meg az "c" oldal hosszát! "))
+if a+c > b and a+b > c and b+c > a:
+	print("Ez a szög szerkeszthetõ")
+else:
+	print("Ez nem lesz háromszög")
+
+5.feladat
+név = input('Mi a kedves vezetékneved? ')
+ 
+nem = input('Lány vagy, avagy fiú vagy-é? (l/f) ')
+if nem == 'l':
+    elõtag = 'Ms.'
+elif nem == 'f':
+    elõtag = 'Mr.'
+else:
+    print('Íly nemet sajna nem ismerek. Nem fogok rendesen köszönni.')
+    elõtag = 'M?.'
+ 
+napszak = input('Milyen napaszak van? (r/du/e/é) ')
+# r = reggel, du = délután, e = este, é = éjjel
+if napszak == 'r':
+    angol_napszak = 'morning'
+elif napszak == 'du':
+    angol_napszak = 'afternoon'
+elif napszak == 'e':
+    angol_napszak = 'evening'
+elif napszak == 'e':
+    angol_napszak = 'evening'
+elif napszak == 'é':
+    angol_napszak = 'nignt'
+else:
+    print('E napszakot sajnos nincs szerencsém ismerni. Aú! Revoár!')
+    angol_napszak = 'i-don\'t-know'
+ 
+print('Good ', angol_napszak, ', ', elõtag, ' ', név, '!', sep='')

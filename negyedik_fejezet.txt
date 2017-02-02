@@ -1,0 +1,30 @@
+1. feladat
+
+year = input("Jelenlegi év: ")
+név = input('Hogy híjják kendet? ')
+kor = input('És hány éves kend? ') # itt még stringet kapunk
+kor = int(kor) # átalakítjuk egész számmá, azaz int-té
+születési_év = 2016 - kor
+print(név, ', kend ', születési_év, '-ban született.', sep='')
+
+2.feladat
+
+year = input("Jelenlegi év: ")
+név = input('Hogy híjják kendet? ')
+kor = input('És hány éves kend? ') # itt még stringet kapunk
+kor = int(kor) # átalakítjuk egész számmá, azaz int-té
+születési_év = 2016 - kor
+print(név, ', kend ', születési_év, '-ban született.', sep='')
+if 18-kor>=0:
+    print(18-kor, "év múlva érettségizik.")
+else:
+print(kor-18, "éve érettségizett.")
+
+4. feladat
+
+magyar_merfold = input("Hány magyar mérföldre van a sárkány barlangja?")
+magyar_merfold = int(magyar_merfold)
+km = magyar_merfold *8.3536
+tengeri_merfold = km / 1.852
+print("Ez a táv", km, "kilométert és", tengeri_merfold, "tengeri mérföldet jelent.")
+
